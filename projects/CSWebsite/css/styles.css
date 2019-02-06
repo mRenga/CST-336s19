@@ -1,0 +1,109 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+header, nav, footer {
+    text-align: center;
+}
+
+nav a {
+    /* links within "nav" container*/
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    /*removes underline*/
+    color: green;
+    /*by default, links are blue*/
+}
+
+nav a:hover {
+    /*pseudo class*/
+    border-bottom: 2px green solid;
+    font-size: 2em;
+    transition: .9s;
+    /*transition effect*/
+}
+
+#otter {
+    float: left;
+    text-align: left;
+}
+
+footer {
+    font-size: 1em;
+    color: grey;
+    clear: left;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+
+.emphasis {
+    color: blue;
+}
+
+#content {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+#overview {
+    text-align: center;
+}
+
+#figure {
+    text-align: center;
+    padding: 0px;
+}
+#bottomText{
+    text-align: center;
+    font-style: italic;
+    font-style: oblique;
+}
+#steps{
+    font-style: italic;
+}
+#bubbleSteps{
+    margin: auto;
+}
+.italic{
+    font-style: italic;
+}
+.notItalic{
+    font-style: normal;
+}
+#bstRules{
+    text-align: center;
+    font-style: italic;
+}

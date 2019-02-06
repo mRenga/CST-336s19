@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+
+<head>
+    <meta charset="utf-8" />
+    <title> CS Let's Go! </title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<!-- closing head -->
+
+<!-- This is the body -->
+<!-- This is where we place the content of our website -->
+
+<body>
+    <header>
+        <h1> Merge Sort </h1>
+    </header>
+    <nav>
+        <hr width="50%" />
+        <a href="index.html">Home</a>
+        <a href="bubble.html">Bubble</a>
+        <b><a href="merge.html">Merge</a></b>
+        <a href="bst.html">BST</a>
+    </nav>
+
+    <br /><br />
+
+    <div id="overview">
+        <b>Merge Sort is an efficient, general-purpose, comparison-based sorting algorithm<br/>It's a divide and conquer algorithm that was invented by John von Neumann in 1945</b>
+    </div>
+    <div id="steps">
+        <ul>
+            <li><b><span class = "notItalic">Step 1:</span></b> Divide the unsorted list into <b><span class="italic">N</span></b> sublists, each containing <b>1</b> element</li>
+            <li><b><span class = "notItalic">Step 2:</span></b> Take adjacent pairs of two singleton lists and merge them to form a list of 2 elements. <b><span class="italic">N</span></b> will now convert into <b><span class="italic">N/2</span></b> lists of size 2.</li>
+            <li><b><span class = "notItalic">Step 3:</span></b> Repeat the process till a single sorted list of obtained.</li>
+        </ul>
+    </div>
+    <div id="figure">
+        <figure>
+            <img src="img/merge.png" alt="merge sort" />
+        </figure>
+    </div>
+    <div id="bottomText">
+        <b>Merge Sort is just as easy as bubble sort to visualize, but the code for it might be challenging</b><br/> <a href="mergeVideo.html">Check out this video to see how one might code merge sort<a>
+    </div>
+
+    <!-- This is the footer -->
+    <!-- The footer goes inside the body but not always -->
+    <footer>
+        <hr>
+        <figure id="otter">
+            <img src="img/csumb.jpg" alt="CSUMB mascot" height=60px, width=75px/>
+        </figure>
+        CST 336. 2019&copy; Renga <br/>
+        <strong>Disclaimer:</strong> The information in this website is possibly fictitious. <br/> It is used for academic purposes only
+        <br/><a href="references.html">References</a>
+    </footer>
+    <!-- closing footer -->
+
+</body>
+<!-- closing body -->
+
+</html>
