@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+}
+subtitle {
+    background-color: darkblue;
+    font-size: 3em;
+    color: white;
+    display: flex;
+}
+row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 2px;
+}
+#degree {
+    font-size: 1.5em;
+}
+.col{
+    text-decoration: underline;
+}
