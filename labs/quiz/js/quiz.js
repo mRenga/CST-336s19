@@ -74,5 +74,9 @@ $('document').ready(function() {
             $("#a6").html("Correct answer: C");
         }
         $("#points").html("Total Score: " + points);
+        if (points > 90) {
+            $("#yay").html("Woohoo! You're so smart!");
+
+        }
     }
 });
