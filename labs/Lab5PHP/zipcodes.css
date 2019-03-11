@@ -1,0 +1,77 @@
+h1 {
+    text-decoration: underline;
+    color: black;
+}
+
+body {
+    padding-left: 500px;
+    background-color: lightgrey;
+}
+footer{
+    font-size: 1em;
+    color: grey;
+    clear: left;
+}
+#checkFail {
+    color: red;
+}
+
+#checkSucc {
+    color: green;
+}
+
+fieldset {
+    float: left;
+}
+
+#fname {
+    color: yellow;
+}
+
+#lname {
+    color: purple;
+}
+
+#email {
+    color: aqua;
+}
+
+#number {
+    color: blue;
+}
+
+#code {
+    color: fuchsia;
+}
+
+#sity {
+    color: aqua;
+}
+
+#lat {
+    color: navy;
+}
+
+#long {
+    color: steelblue;
+}
+
+#stat {
+    color: khaki;
+}
+
+#county {
+    color: deeppink;
+}
+
+#uname {
+    color: ivory;
+}
+
+#pass1 {
+    color: darkmagenta;
+}
+
+#pass2 {
+    color: lavender;
+}
