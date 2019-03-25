@@ -1,0 +1,149 @@
+<html>
+
+<head>
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+    <h1> Spring Break Shopping </h1>
+
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Unit <br> Price</th>
+            <th> Quantity </th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Microfiber Beach Towel</td>
+            <td>$30</td>
+            <td><input type="text" onchange="quantityChange()" id="towel" size="5"></td>
+            <td id="towelPrice"></td>
+        </tr>
+
+        <tr>
+            <td>Sunscreen 100SPF, 120ml</td>
+            <td>$10</td>
+            <td><input type="text" onchange="quantityChange()" id="sunscreen" size="5"></td>
+            <td id="sunscreenPrice"></td>
+        </tr>
+
+        <tr>
+            <td>Ipanema Flip-flop Sandals </td>
+            <td>$20</td>
+            <td><input type="text" onchange="quantityChange()" id="sandals" size="5"></td>
+            <td id="sandalPrice"></td>
+        </tr>
+
+        <tr>
+            <td>Shipping</td>
+            <td></td>
+            <td></td>
+            <td id="shipping"></td>
+        </tr>
+
+        <tr>
+            <td>Subtotal</td>
+            <td></td>
+            <td></td>
+            <td id="subtotal"></td>
+        </tr>
+
+        <tr>
+            <td>Tax (10%)</td>
+            <td></td>
+            <td></td>
+            <td id="tax"></td>
+        </tr>
+
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td></td>
+            <td id="total"></td>
+        </tr>
+
+    </table>
+
+    <h3>Shipping & Handling</h3>
+    <select id="shippingOption" onchange="changeShipping()">
+        <option value="none">Select one</option>
+        <option value="nextDay">Next-day delivery</option>
+        <option value="threeDay">Three-day delivery</option>
+        <option value="regular">Regular (5-8 days)</option>
+    </select>
+    <span id="invalid" style="color:red;"></span>
+
+    <br><br>
+    <input type="checkbox" value=""> I accept the terms of this purchase
+    <br>
+    <br>
+
+    <button onclick="confirm()">"CONFIRM PURCHASE"</button>
+    <script>
+        function quantityChange() {
+            var tPrice = document.getElementById("towel").value
+            document.getElementById("towelPrice").innerHTML = "$" + 30 * tPrice;
+            var sunPrice = document.getElementById("sunscreen").value
+            document.getElementById("sunscreenPrice").innerHTML = "$" + 10 * sunPrice;
+            var sandPrice = document.getElementById("sandals").value
+            document.getElementById("sandalPrice").innerHTML = "$" + 20 * sandPrice;
+            var subtotal = document.getElementById("towel").value * 30;
+            subtotal += document.getElementById("sunscreen").value * 10;
+            subtotal += document.getElementById("sandals").value * 20;
+            document.getElementById("subtotal").innerHTML = "$" + subtotal;
+            if (document.getElementById("shippingOption").value == "nextDay") {
+                subtotal += "$15.00";
+            }
+            else if (document.getElementById("shippingOption").value == "threeDay") {
+                subtotal += "$10.00";
+            }
+            else if (document.getElementById("shippingOption").value == "regular") {
+                subtotal += "$5.00";
+            }
+            document.getElementById("tax").innerHTML = "$" + (subtotal * 0.1);
+            document.getElementById("total").innerHTML = "$" + (subtotal + subtotal * 0.1)
+        }
+
+        function confirm() {
+            var option = document.getElementById('shippingOption').value;
+            if (option == "none") {
+                document.getElementById("invalid").innerHTML = "Must input shipping method";
+                return false;
+            }
+        }
+
+        function changeShipping() {
+            if (document.getElementById("shippingOption").value == "nextDay") {
+                document.getElementById("shipping").innerHTML = "$15.00";
+            }
+            else if (document.getElementById("shippingOption").value == "threeDay") {
+                document.getElementById("shipping").innerHTML = "$10.00";
+            }
+            else if (document.getElementById("shippingOption").value == "regular") {
+                document.getElementById("shipping").innerHTML = "$5.00";
+            }
+            var tPrice = document.getElementById("towel").value
+            var sunPrice = document.getElementById("sunscreen").value
+            var sandPrice = document.getElementById("sandals").value
+            var subtotal = document.getElementById("towel").value * 30;
+            subtotal += document.getElementById("sunscreen").value * 10;
+            subtotal += document.getElementById("sandals").value * 20;
+            document.getElementById("subtotal").innerHTML = "$" + subtotal;
+            if (document.getElementById("shippingOption").value == "nextDay") {
+                subtotal += "$15.00";
+            }
+            else if (document.getElementById("shippingOption").value == "threeDay") {
+                subtotal += "$10.00";
+            }
+            else if (document.getElementById("shippingOption").value == "regular") {
+                subtotal += "$5.00";
+            }
+            document.getElementById("tax").innerHTML = "$" + (subtotal * 0.1);
+            document.getElementById("total").innerHTML = "$" + (subtotal + subtotal * 0.1)
+        }
+    </script>
+
+</body>
+
+</html>
