@@ -2,9 +2,9 @@
     
     include '../dbConnection.php';
     
-    $conn = getDatabaseConnection("ottermart");
+    $conn = getDatabaseConnection("cinder");
     
-    $sql = "SELECT picture_url, username, about_me FROM user, match WHERE match.user_id != id;
+    $sql = "SELECT picture_url, username, about_me FROM user, match WHERE match.user_id != id";
     
     $stmt = $conn->prepare($sql);
     $stmt->execute();
