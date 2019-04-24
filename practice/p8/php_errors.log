@@ -1,0 +1,374 @@
+[08-Apr-2019 19:08:51 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:08:51 UTC] PHP Stack trace:
+[08-Apr-2019 19:08:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:08:51 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:08:51 UTC] PHP Stack trace:
+[08-Apr-2019 19:08:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:08:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 6
+[08-Apr-2019 19:08:51 UTC] PHP Stack trace:
+[08-Apr-2019 19:08:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:08:55 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:08:55 UTC] PHP Stack trace:
+[08-Apr-2019 19:08:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:08:55 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:08:55 UTC] PHP Stack trace:
+[08-Apr-2019 19:08:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:08:57 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:08:57 UTC] PHP Stack trace:
+[08-Apr-2019 19:08:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:08:57 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:08:57 UTC] PHP Stack trace:
+[08-Apr-2019 19:08:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:08:57 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:08:57 UTC] PHP Stack trace:
+[08-Apr-2019 19:08:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:08:57 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:08:57 UTC] PHP Stack trace:
+[08-Apr-2019 19:08:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:22:03 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:22:03 UTC] PHP Stack trace:
+[08-Apr-2019 19:22:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:22:03 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:22:03 UTC] PHP Stack trace:
+[08-Apr-2019 19:22:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:22:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 6
+[08-Apr-2019 19:22:03 UTC] PHP Stack trace:
+[08-Apr-2019 19:22:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:22:03 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:22:03 UTC] PHP Stack trace:
+[08-Apr-2019 19:22:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:22:03 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:22:03 UTC] PHP Stack trace:
+[08-Apr-2019 19:22:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:22:06 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:22:06 UTC] PHP Stack trace:
+[08-Apr-2019 19:22:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:22:06 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:22:06 UTC] PHP Stack trace:
+[08-Apr-2019 19:22:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:22:09 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:22:09 UTC] PHP Stack trace:
+[08-Apr-2019 19:22:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:22:09 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:22:09 UTC] PHP Stack trace:
+[08-Apr-2019 19:22:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:25:27 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:25:27 UTC] PHP Stack trace:
+[08-Apr-2019 19:25:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:25:27 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:25:27 UTC] PHP Stack trace:
+[08-Apr-2019 19:25:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:25:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 6
+[08-Apr-2019 19:25:27 UTC] PHP Stack trace:
+[08-Apr-2019 19:25:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:25:28 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:25:28 UTC] PHP Stack trace:
+[08-Apr-2019 19:25:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:25:28 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:25:28 UTC] PHP Stack trace:
+[08-Apr-2019 19:25:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:25:29 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:25:29 UTC] PHP Stack trace:
+[08-Apr-2019 19:25:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:25:29 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:25:29 UTC] PHP Stack trace:
+[08-Apr-2019 19:25:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:28:03 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:28:03 UTC] PHP Stack trace:
+[08-Apr-2019 19:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:28:03 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:28:03 UTC] PHP Stack trace:
+[08-Apr-2019 19:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:28:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 6
+[08-Apr-2019 19:28:03 UTC] PHP Stack trace:
+[08-Apr-2019 19:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:28:46 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:28:46 UTC] PHP Stack trace:
+[08-Apr-2019 19:28:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:28:46 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:28:46 UTC] PHP Stack trace:
+[08-Apr-2019 19:28:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:28:46 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 6
+[08-Apr-2019 19:28:46 UTC] PHP Stack trace:
+[08-Apr-2019 19:28:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:33:09 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:33:09 UTC] PHP Stack trace:
+[08-Apr-2019 19:33:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:33:09 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:33:09 UTC] PHP Stack trace:
+[08-Apr-2019 19:33:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:33:09 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 6
+[08-Apr-2019 19:33:09 UTC] PHP Stack trace:
+[08-Apr-2019 19:33:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:33:10 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:33:10 UTC] PHP Stack trace:
+[08-Apr-2019 19:33:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:33:10 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:33:10 UTC] PHP Stack trace:
+[08-Apr-2019 19:33:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:33:10 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:33:10 UTC] PHP Stack trace:
+[08-Apr-2019 19:33:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:33:10 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:33:10 UTC] PHP Stack trace:
+[08-Apr-2019 19:33:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:33:10 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 6
+[08-Apr-2019 19:33:10 UTC] PHP Stack trace:
+[08-Apr-2019 19:33:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:34:26 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:34:26 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:34:26 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:34:26 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:34:26 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 6
+[08-Apr-2019 19:34:26 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:34:27 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:34:27 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:34:27 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:34:27 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:34:34 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:34:34 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:34:34 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:34:34 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:34:34 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 6
+[08-Apr-2019 19:34:34 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:34:35 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:34:35 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:34:35 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:34:35 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:34:36 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:34:36 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:34:36 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:34:36 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:34:55 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:34:55 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:34:55 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 5
+[08-Apr-2019 19:34:55 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:34:55 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 6
+[08-Apr-2019 19:34:55 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:0
+[08-Apr-2019 19:34:55 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:34:55 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:34:55 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:34:55 UTC] PHP Stack trace:
+[08-Apr-2019 19:34:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:36:30 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:36:30 UTC] PHP Stack trace:
+[08-Apr-2019 19:36:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:36:30 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:36:30 UTC] PHP Stack trace:
+[08-Apr-2019 19:36:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:36:41 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:36:41 UTC] PHP Stack trace:
+[08-Apr-2019 19:36:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:36:41 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:36:41 UTC] PHP Stack trace:
+[08-Apr-2019 19:36:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:36:51 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:36:51 UTC] PHP Stack trace:
+[08-Apr-2019 19:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:36:51 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:36:51 UTC] PHP Stack trace:
+[08-Apr-2019 19:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:37:10 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:37:10 UTC] PHP Stack trace:
+[08-Apr-2019 19:37:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:37:10 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:37:10 UTC] PHP Stack trace:
+[08-Apr-2019 19:37:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:37:11 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:37:11 UTC] PHP Stack trace:
+[08-Apr-2019 19:37:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:37:11 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:37:11 UTC] PHP Stack trace:
+[08-Apr-2019 19:37:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:37:11 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:37:11 UTC] PHP Stack trace:
+[08-Apr-2019 19:37:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:37:11 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:37:11 UTC] PHP Stack trace:
+[08-Apr-2019 19:37:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:37:11 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:37:11 UTC] PHP Stack trace:
+[08-Apr-2019 19:37:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:37:11 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:37:11 UTC] PHP Stack trace:
+[08-Apr-2019 19:37:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:37:11 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:37:11 UTC] PHP Stack trace:
+[08-Apr-2019 19:37:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:37:11 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:37:11 UTC] PHP Stack trace:
+[08-Apr-2019 19:37:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:37:12 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:37:12 UTC] PHP Stack trace:
+[08-Apr-2019 19:37:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:37:12 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:37:12 UTC] PHP Stack trace:
+[08-Apr-2019 19:37:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:39:23 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:39:23 UTC] PHP Stack trace:
+[08-Apr-2019 19:39:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:39:23 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:39:23 UTC] PHP Stack trace:
+[08-Apr-2019 19:39:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:39:24 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:39:24 UTC] PHP Stack trace:
+[08-Apr-2019 19:39:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:39:24 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:39:24 UTC] PHP Stack trace:
+[08-Apr-2019 19:39:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:39:24 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:39:24 UTC] PHP Stack trace:
+[08-Apr-2019 19:39:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:39:24 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:39:24 UTC] PHP Stack trace:
+[08-Apr-2019 19:39:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:39:28 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:39:28 UTC] PHP Stack trace:
+[08-Apr-2019 19:39:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:39:28 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:39:28 UTC] PHP Stack trace:
+[08-Apr-2019 19:39:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:40:42 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:40:42 UTC] PHP Stack trace:
+[08-Apr-2019 19:40:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:40:42 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:40:42 UTC] PHP Stack trace:
+[08-Apr-2019 19:40:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:41:16 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:41:16 UTC] PHP Stack trace:
+[08-Apr-2019 19:41:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:41:16 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:41:16 UTC] PHP Stack trace:
+[08-Apr-2019 19:41:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:41:18 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:41:18 UTC] PHP Stack trace:
+[08-Apr-2019 19:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:41:18 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:41:18 UTC] PHP Stack trace:
+[08-Apr-2019 19:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:41:18 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:41:18 UTC] PHP Stack trace:
+[08-Apr-2019 19:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:41:18 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:41:18 UTC] PHP Stack trace:
+[08-Apr-2019 19:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:41:19 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:41:19 UTC] PHP Stack trace:
+[08-Apr-2019 19:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:41:19 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:41:19 UTC] PHP Stack trace:
+[08-Apr-2019 19:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:41:57 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:41:57 UTC] PHP Stack trace:
+[08-Apr-2019 19:41:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:41:57 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:41:57 UTC] PHP Stack trace:
+[08-Apr-2019 19:41:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:41:58 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:41:58 UTC] PHP Stack trace:
+[08-Apr-2019 19:41:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:41:58 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:41:58 UTC] PHP Stack trace:
+[08-Apr-2019 19:41:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:43:10 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:43:10 UTC] PHP Stack trace:
+[08-Apr-2019 19:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 19:43:10 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 4
+[08-Apr-2019 19:43:10 UTC] PHP Stack trace:
+[08-Apr-2019 19:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:0
+[08-Apr-2019 20:00:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 12
+[08-Apr-2019 20:00:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/get_word_api.php on line 12
+[08-Apr-2019 20:01:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 11
+[08-Apr-2019 20:02:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 11
+[08-Apr-2019 20:02:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 11
+[08-Apr-2019 20:02:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 11
+[08-Apr-2019 20:02:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 11
+[08-Apr-2019 20:09:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 12
+[08-Apr-2019 20:09:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 12
+[08-Apr-2019 20:09:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 12
+[08-Apr-2019 20:10:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 12
+[08-Apr-2019 20:12:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 12
+[08-Apr-2019 20:14:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 12
+[08-Apr-2019 20:14:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 12
+[08-Apr-2019 20:14:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 12
+[08-Apr-2019 20:14:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336s19/practice/p8/api/check_word.php on line 12
