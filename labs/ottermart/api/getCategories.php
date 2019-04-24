@@ -4,7 +4,7 @@
     
     $conn = getDatabaseConnection("ottermart");
     
-    $sql = "SELECT picture_url, username, about_me FROM user, match WHERE match.user_id != id;
+    $sql = "SELECT catId, catName FROM om_category ORDER BY catName";
     
     $stmt = $conn->prepare($sql);
     $stmt->execute();
