@@ -1,0 +1,7 @@
+.logout, #logout{
+    position: fixed;
+    color: green;
+    top: 10px;
+    right: 10px;
+    
+}
