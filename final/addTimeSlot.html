@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <title>Scheduler</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <main class="d-flex align-items-center justify-content-center">
+        <div class="card">
+            <div class="card-body p-4">
+                <h1>Add Time Slot</h1>
+                <form>
+                    <div class="input-group mb-3">
+                        <span class="addForm">Date: </span><input type="text" class="form-control" placeholder="YYYY-MM-DD" name="date"> <img src="images/calendar.png">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="addForm">Start Time: </span><input type="text" class="form-control" placeholder="9 am" name="start">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="addForm">Duration: </span><input type="text" class="form-control" placeholder="1 hour" name="duration">
+                    </div>
+                    <div>
+                        <button id="cancel" type="button">Cancel</button>
+                        <button id="add" type="button">Add</button>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <div id="message" class="alert alert-danger open-hidden" role="alert"></div>
+            </div>
+        </div>
+    </main>
+    <script>
+        /* global $ */
+        $(document).ready(function() {
+            $("#add").on('click', function() {
+                if (isValidDate($("[name=date]").val())) {
+                    $("#message").html("");
+                    $.ajax({
+                        type: "POST",
+                        url: "api/addTime.php",
+                        dataType: "json",
+                        data: {
+                            "date": $("[name=date]").val(),
+                            "start_time": $("[name=start]").val(),
+                            "duration": $("[name=duration").val()
+                        },
+                        success: function(data, status) {
+                            window.location = "index.html";
+                        }
+                    });
+                }
+                else {
+                    $("#message").html("invalid date");
+                }
+            });
+            $("#cancel").on('click', function() {
+                window.location = "index.html";
+            });
+        });
+
+        function isValidDate(dateString) {
+            // First check for the pattern
+            if (!/^\d{4}\-\d{1,2}\-\d{1,2}$/.test(dateString)) {
+                console.log("nooo");
+                return false;
+            }
+            return true;
+        };
+    </script>
+
+</body>

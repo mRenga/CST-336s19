@@ -1,0 +1,29 @@
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+h1{
+    border-bottom-style: groove ;
+}
+body {
+    text-align: center;
+}
+.addForm{
+    font-family: sans-serif;
+    font: caption;
+    font-size: 25px;
+}
+footer {
+    text-align: center;
+}
+#details, .delete {
+    background-color: #4CAF50;
+    /* Green */
+    border: double;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

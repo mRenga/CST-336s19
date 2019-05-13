@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Scheduler</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        Invitation Link
+    </div>
+    <br/>
+    <table id="appointments" style="width:100%">
+
+    </table>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script>
+        var table = document.getElementById("appointments");
+        var count = 0;
+        $(document).ready(function() {
+            $.ajax({
+                type: "GET",
+                url: "api/getAppointments.php",
+                dataType: "json",
+                success: function(data, status) {
+                    while (count <= data.length) {
+
+                        var row = table.insertRow(count);
+                        count++;
+
+                        if (count == 1) {
+                            var cell1 = row.insertCell(0);
+                            var cell2 = row.insertCell(1);
+                            var cell3 = row.insertCell(2);
+                            var cell4 = row.insertCell(3);
+                            var cell5 = row.insertCell(4);
+                            cell1.innerHTML = "<b>Date</b>";
+                            cell2.innerHTML = "<b>Start Time</b>";
+                            cell3.innerHTML = "<b>Duration</b>";
+                            cell4.innerHTML = "<b>Booked By</b>";
+                            cell5.innerHTML = "<a href=addTimeSlot.html>Add Time Slot</a>";
+                            row = table.insertRow(count);
+                            count++;
+                            cell1 = row.insertCell(0);
+                            cell2 = row.insertCell(1);
+                            cell3 = row.insertCell(2);
+                            cell4 = row.insertCell(3);
+                            cell5 = row.insertCell(4);
+                            cell1.innerHTML = data[count - 2].date;
+                            cell2.innerHTML = data[count - 2].start_time;
+                            cell3.innerHTML = data[count - 2].duration;
+                            cell4.innerHTML = data[count - 2].booked_by;
+                            cell5.innerHTML = "<button id='details'>Details</button><button onclick='deleteAppointment()'><b>X</b>Delete</button>";
+
+
+                        }
+                        else {
+                            cell1 = row.insertCell(0);
+                            cell2 = row.insertCell(1);
+                            cell3 = row.insertCell(2);
+                            cell4 = row.insertCell(3);
+                            cell5 = row.insertCell(4);
+                            cell1.innerHTML = data[count - 2].date;
+                            cell2.innerHTML = data[count - 2].start_time;
+                            cell3.innerHTML = data[count - 2].duration;
+                            cell4.innerHTML = data[count - 2].booked_by;
+                            cell5.innerHTML = "<button id='details'>Details</button><button onclick='deleteAppointment()'><b>X</b>Delete</button>";
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+
+<script>
+    function deleteAppointment() {
+        let tr = $(this).closest('tr');
+        let a = tr.find('').val();
+        let b = tr.find('').val();
+        alert( a + ' ' + b);
+        console.log(a, b);
+    }
+    $(document).ready(function() {
+        $(".delete").on('click', function() {
+            window.location = "index.html";
+        });
+    });
+</script>
+
+<footer>Maximillian Renga Final Exam 2019</footer>
+
+</html>
